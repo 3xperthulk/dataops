@@ -9,5 +9,3 @@ terraform {
       # container_name = "terraform.tfstate`"
     }
 }
-
-data "azurerm_client_config" "current" {}
