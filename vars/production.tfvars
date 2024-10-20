@@ -1,7 +1,15 @@
 # General Variables
 general_name = "prod-de"
-location                     = "uksouth"
-storage_account_name = "storage_account"
+location = "uksouth"
+
+# storage account
+
+public_access_policy = "blob"
+container_access_type = "private"
+account_replication_type = "LRS"
+account_tier = "Standard"
+
+
 # Virtual Network
 vnet_name                   = "devopsjourney-vnet"
 network_address_space       = "192.168.0.0/16"
