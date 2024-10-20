@@ -1,6 +1,6 @@
 # General Variables
 general_name = "prod-de"
-location = "uksouth"
+location = "centralindia"
 
 # storage account
 
