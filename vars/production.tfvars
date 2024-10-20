@@ -1,4 +1,4 @@
 # General Variables in use
-general_name = "prod-de"
+general_name = "prodde"
 location = "centralindia"
 environment = "production"

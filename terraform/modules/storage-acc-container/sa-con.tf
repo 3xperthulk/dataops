@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "sa_resource_group" {
 }
 
 resource "azurerm_storage_account" "sa" {
-  name                     = "${var.name}-sa"
+  name                     = "${var.name}sa"
   resource_group_name      = azurerm_resource_group.sa_resource_group.name
   location                 = azurerm_resource_group.sa_resource_group.location
   account_tier             = "Standard"
