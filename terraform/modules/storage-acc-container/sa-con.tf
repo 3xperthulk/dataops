@@ -18,7 +18,7 @@ resource "azurerm_storage_account" "sa" {
     Environment = var.environment
   }
 }
-resource "azurerm_storage_container" "sa-con" {
+resource "azurerm_storage_container" "sa_con" {
   name                  = "${var.name}-sa-con"
   storage_account_name  = azurerm_storage_account.sa.name
   container_access_type = "private"
