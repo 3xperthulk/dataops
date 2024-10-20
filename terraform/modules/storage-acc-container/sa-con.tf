@@ -22,9 +22,5 @@ resource "azurerm_storage_container" "sa-con" {
   name                  = "${var.name}-sa-con"
   storage_account_name  = azurerm_storage_account.sa.name
   container_access_type = "private"
-
-  tags = {
-    Environment = var.environment
-  } 
 }
 
