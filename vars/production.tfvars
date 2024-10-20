@@ -3,11 +3,10 @@ general_name = "prod-de"
 location = "centralindia"
 
 # storage account
-
-public_access_policy = "blob"
-container_access_type = "private"
 account_replication_type = "LRS"
 account_tier = "Standard"
+public_access_policy = "blob"
+container_access_type = "private"
 
 
 # Virtual Network
