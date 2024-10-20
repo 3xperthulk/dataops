@@ -1,13 +1,3 @@
-variable "storage_account_name" {
-  description = "The name of the storage account. Must be globally unique."
-  type        = string
-}
-
-variable "resource_group_name" {
-  description = "The name of the resource group where the storage account will be created."
-  type        = string
-}
-
 variable "location" {
   description = "The Azure region where the storage account will be created."
   type        = string
@@ -31,9 +21,11 @@ variable "environment" {
 variable "container_access_type" {
   description = "Container access type"
   type = string
+  default = "private"
 }
 
 variable "public_access_policy" {
   description = "policy access type"
   type = string
+  default = "blob"
 }
