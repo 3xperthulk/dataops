@@ -21,11 +21,9 @@ variable "environment" {
 variable "container_access_type" {
   description = "Container access type"
   type = string
-  default = "private"
 }
 
 variable "public_access_policy" {
   description = "policy access type"
   type = string
-  default = "blob"
 }
