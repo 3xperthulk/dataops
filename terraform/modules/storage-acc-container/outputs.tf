@@ -13,5 +13,5 @@ output "resource_group_id" {
 }
 
 output "storage_account_container_id" {
-  value = azurerm_storage_container.sa_con.id
+  value = azurerm_storage_container.sa_con.name
 }
